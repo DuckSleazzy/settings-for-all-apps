@@ -1,9 +1,12 @@
 {
-  "timeStamp": 1733745322921,
+  "timeStamp": 1735704102836,
   "version": "1.61.2",
   "userSettings": {
     "advancedUserEnabled": true,
-    "importedLists": [],
+    "externalLists": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+    "importedLists": [
+      "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+    ],
     "popupPanelSections": 31,
     "showIconBadge": false
   },
@@ -22,7 +25,8 @@
     "easylist-chat",
     "easylist-newsletters",
     "easylist-notifications",
-    "easylist-annoyances"
+    "easylist-annoyances",
+    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
   ],
   "hiddenSettings": {
     "userResourcesLocation": "https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/video-swap-new/video-swap-new-ublock-origin.js"
