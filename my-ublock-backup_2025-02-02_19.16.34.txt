@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1735704102836,
-  "version": "1.61.2",
+  "timeStamp": 1738503994793,
+  "version": "1.62.0",
   "userSettings": {
     "advancedUserEnabled": true,
     "externalLists": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
@@ -19,6 +19,7 @@
     "ublock-unbreak",
     "easylist",
     "easyprivacy",
+    "adguard-spyware-url",
     "urlhaus-1",
     "plowe-0",
     "fanboy-cookiemonster",
@@ -32,11 +33,14 @@
     "userResourcesLocation": "https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/video-swap-new/video-swap-new-ublock-origin.js"
   },
   "whitelist": [
+    "account.bandainamcoent.eu",
+    "archive.org",
     "chrome-extension-scheme",
+    "en.bandainamcoent.eu",
     "moz-extension-scheme"
   ],
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
-  "userFilters": "twitch.tv##+js(twitch-videoad)\n||1337x.vpnonly.site\nnxbrew.net##+js(noeval-if, /chp_?ad/)\n\n! 08-Dec-2024 https://www.deezer.com\nwww.deezer.com##.gdpr-modalContainer\nwww.deezer.com##.gdpr-modal-background"
+  "userFilters": "twitch.tv##+js(twitch-videoad)\n||1337x.vpnonly.site\nnxbrew.net##+js(noeval-if, /chp_?ad/)\n\n! 08-Dec-2024 https://www.deezer.com\nwww.deezer.com##.gdpr-modalContainer\nwww.deezer.com##.gdpr-modal-background\n\n! 23 Jan 2025 https://www.gsmarena.com\nwww.gsmarena.com###subHeader2\n\n! 27 Jan 2025 https://www.hltv.org\n||www.hltv.org/img/aY-YWoBlfMjzQF1tR68377.svg?ixlib=java-2.1.0&s=ca4918163481ad83380fbc43a7495f40$image\n||www.hltv.org/img/aY-YWoBlfMjzQF1tR68377.svg?ixlib=java-2.1.0&s=ca4918163481ad83380fbc43a7495f40$image"
 }
