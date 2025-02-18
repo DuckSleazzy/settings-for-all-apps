@@ -1,0 +1,51 @@
+/* ==UserStyle==
+@name           PSPrices Dark Mode
+@namespace      PSPrices Dark Mode
+@version        1.0
+@description    Dark mode for PSPrices
+@author         DuckSleazzy
+@homepage       github.com/DuckSleazzy
+==/UserStyle== */
+
+main.container{
+    max-width: 1632px !important;
+}
+
+div.content{
+    max-width: 1200px !important;
+    margin: auto;
+}
+
+div.grid{
+    max-width: 1200px !important;
+    margin: auto;
+}
+
+footer.bg-elevation2 {
+    padding-bottom: 0px !important;
+}
+
+div.sm\:py-12{
+    padding-bottom: 0px !important;
+}
+
+div.sm\:pt-8{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+nav.pt-16{
+    padding-top: 10px !important;
+}
+
+nav.py-9{
+    padding-bottom: 10px !important;
+}
+
+div.creative{
+    display: none;
+}

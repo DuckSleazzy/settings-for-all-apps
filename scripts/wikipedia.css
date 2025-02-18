@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           Wikipedia High contrast
+@namespace      Wikipedia High Contrast Dark Mode
+@version        1.0.3
+@description    High contrast/OLED Dark Mode for Wikipedia when selecting the dark mode.
+@author         DuckSleazzy
+@homepage       github.com/DuckSleazzy
+==/UserStyle== */
+
+@media screen {
+    html.skin-theme-clientpref-night {
+        --color-inverted: #000;
+        --background-color-base: #000;
+        --border-color-inverted: #000;
+        --background-color-neutral-subtle: #000;
+        --background-color-interactive-subtle: #000;
+    }
+}

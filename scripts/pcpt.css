@@ -1,0 +1,67 @@
+/* ==UserStyle==
+@name           PCPT Dark Mode
+@namespace      PCPriceTracker Dark Mode
+@version        1.0.3
+@description    Dark Mode for PCPriceTracker.in
+@author         DuckSleazzy
+@homepage       github.com/DuckSleazzy
+==/UserStyle== */
+
+body{
+    color: #f8f9fa;
+    background-color: #1e1e1e;
+}
+
+.text-body-secondary{
+    color: #f8f9fa !important;
+}
+
+i.text-muted{
+    color: #f8f9fa !important;
+}
+
+nav.navbar-light{
+    background-color: #101010 !important;
+}
+
+.nav-link, .navbar-brand{
+    color: #f8f9fa !important;
+}
+
+.active{
+    color: #f8f9fa !important;
+    font-weight: 650;
+}
+
+.form-control{ /* searchbox*/
+    color: #f8f9fa;
+    background-color: #101010;
+}
+
+.page-item.disabled .page-link{
+    color: #f8f9fa;
+    background-color: #101010;
+}
+
+.paginate-button .page-item{
+    color: #f8f9fa;
+    background-color: #101010;
+}
+
+.paginate_button.page-item:not(.disabled) .page-link {
+    color: #007bff; /* Replace with your desired color */
+    background-color: #101010;
+}
+
+.paginate_button.page-item.active .page-link {
+    color: #fff; /* Active text color */
+    background-color: #007bff; /* Active background color */
+}
+
+#price_history_chart {
+    filter: invert(1);
+}
+
+.table-striped tbody tr:nth-of-type(2n+1){
+    background-color: #151515;
+}
