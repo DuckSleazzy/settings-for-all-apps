@@ -7,45 +7,36 @@
 @homepage       github.com/DuckSleazzy
 ==/UserStyle== */
 
-main.container{
+main.container {
     max-width: 1632px !important;
 }
 
-div.content{
+div.content, div.grid {
     max-width: 1200px !important;
     margin: auto;
 }
 
-div.grid{
-    max-width: 1200px !important;
-    margin: auto;
-}
-
-footer.bg-elevation2 {
+footer.bg-elevation2, div.sm\:py-12 {
     padding-bottom: 0px !important;
 }
 
-div.sm\:py-12{
-    padding-bottom: 0px !important;
-}
-
-div.sm\:pt-8{
+div.sm\:pt-8 {
     padding-top: 16px !important;
     padding-bottom: 16px !important;
 }
 
-p{
-  margin-bottom: 0px;
+p {
+    margin-bottom: 0px;
 }
 
-nav.pt-16{
+nav.pt-16 {
     padding-top: 10px !important;
 }
 
-nav.py-9{
+nav.py-9 {
     padding-bottom: 10px !important;
 }
 
-div.creative{
+div.creative {
     display: none;
 }

@@ -7,49 +7,25 @@
 @homepage       github.com/DuckSleazzy
 ==/UserStyle== */
 
-body{
+body {
     color: #f8f9fa;
     background-color: #1e1e1e;
 }
 
-.text-body-secondary{
+.text-body-secondary, i.text-muted, .nav-link, .navbar-brand, .active, .form-control, .page-item.disabled .page-link, .paginate-button .page-item {
     color: #f8f9fa !important;
 }
 
-i.text-muted{
-    color: #f8f9fa !important;
-}
-
-nav.navbar-light{
+nav.navbar-light, .form-control, .page-item.disabled .page-link, .paginate-button .page-item {
     background-color: #101010 !important;
 }
 
-.nav-link, .navbar-brand{
-    color: #f8f9fa !important;
-}
-
-.active{
-    color: #f8f9fa !important;
+.active {
     font-weight: 650;
 }
 
-.form-control{ /* searchbox*/
-    color: #f8f9fa;
-    background-color: #101010;
-}
-
-.page-item.disabled .page-link{
-    color: #f8f9fa;
-    background-color: #101010;
-}
-
-.paginate-button .page-item{
-    color: #f8f9fa;
-    background-color: #101010;
-}
-
 .paginate_button.page-item:not(.disabled) .page-link {
-    color: #007bff; /* Replace with your desired color */
+    color: #007bff;
     background-color: #101010;
 }
 
@@ -62,6 +38,6 @@ nav.navbar-light{
     filter: invert(1);
 }
 
-.table-striped tbody tr:nth-of-type(2n+1){
+.table-striped tbody tr:nth-of-type(2n+1) {
     background-color: #151515;
 }
